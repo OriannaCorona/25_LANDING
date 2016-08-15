@@ -78,10 +78,17 @@ footer{
 }
 /* responsive */
 @media (max-width: 535px) and (max-height: 824px){
-	.formulario {
-		clear: both;
+	.formulario{
+		width: 100%;
+		background-color: lightsalmon;
+		opacity: 0.5;
+		margin-top: 5%;
 	}
-	section .col-6{
+	section .form{
+		width: 100%;
+		margin-left: 0%;
+	}
+	.logo, .menu, .info{
 		width: 100%;
 	}
 }
